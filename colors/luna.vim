@@ -83,7 +83,7 @@ hi Normal        guifg=#e5e5e5 guibg=#212121 gui=NONE
 " The Languages stuff
 hi Title         guifg=#c9f0fa guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
-hi Comment       guifg=#616161 guibg=NONE    gui=NONE
+hi Comment       guifg=#60bdf4 guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 " hi Constant      guifg=#e3588d guibg=NONE    gui=NONE
 hi Constant      guifg=#fff159 guibg=NONE    gui=NONE
