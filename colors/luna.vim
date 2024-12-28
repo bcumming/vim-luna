@@ -78,12 +78,12 @@ let g:colors_name = "luna"
 " Gvim Highlighting: (see :help highlight-groups)"{{{
 " ---------------------------------------------------------------------
 " First, the Normal
-hi Normal        guifg=#e5e5e5 guibg=#212121 gui=NONE
-" ---------------------------------------------------------------------
+hi Normal        guifg=#e5e5e5 guibg=#00050f gui=NONE
+" ---------f-----------------------------------------------------------
 " The Languages stuff
 hi Title         guifg=#c9f0fa guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
-hi Comment       guifg=#60bdf4 guibg=NONE    gui=NONE
+hi Comment       guifg=#60bdf4 guibg=NONE    gui=bold term=bold cterm=bold
 " ---------------------------------------------------------------------
 " hi Constant      guifg=#e3588d guibg=NONE    gui=NONE
 hi Constant      guifg=#fff159 guibg=NONE    gui=NONE
@@ -144,7 +144,7 @@ hi TODO          guifg=#ff0087 guibg=#ffff87 gui=NONE
 " Extended Highlighting
 
 hi NonText       guifg=#838383 guibg=NONE    gui=NONE
-hi Visual        guifg=#262626 guibg=#ffff4d gui=NONE
+hi Visual        guifg=#000000 guibg=#b1b1fa gui=NONE
 hi ErrorMsg      guifg=#870000 guibg=#ffa40b gui=NONE
 hi IncSearch     guifg=#262626 guibg=#ff9933 gui=NONE
 hi Search        guifg=#262626 guibg=#ff9933 gui=NONE
@@ -181,11 +181,8 @@ hi PmenuSel      guifg=#002b2b guibg=#fdf6e3 gui=NONE
 hi PmenuSbar     guifg=#002b2b guibg=#002b2b gui=NONE
 hi PmenuThumb    guifg=#002b2b guibg=#002b2b gui=NONE
 hi MatchParen    guifg=#000000 guibg=#ff4040 gui=NONE
-hi CursorLine    guifg=NONE    guibg=#2e2e2e gui=NONE
-"hi CursorLineNr  guifg=#50c878 guibg=#2e2e2e gui=NONE
-"hi CursorLineNr  guifg=#3eb489 guibg=NONE    gui=NONE
-"hi CursorLineNr  guifg=#f5fffa guibg=NONE    gui=NONE
-hi CursorLineNr  guifg=#87ceeb guibg=NONE    gui=NONE
+hi CursorLine    guifg=NONE    guibg=#000f19 gui=NONE
+hi CursorLineNr  guifg=#fa7e19 guibg=#000f19 gui=bold term=bold cterm=bold
 hi CursorColumn  guifg=NONE    guibg=#2e2e2e gui=NONE
 hi ColorColumn   guifg=NONE    guibg=#3e3739 gui=NONE
 hi WildMenu      guifg=#002b2b guibg=#ffffff gui=NONE
